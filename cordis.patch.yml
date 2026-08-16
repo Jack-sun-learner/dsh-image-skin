@@ -1,0 +1,8 @@
+# dsh-image-skin bundle patch: mounts the image skin plugin over the web
+# profile. The host half registers the /api/dsh-image-skin HTTP route (AI pet
+# generation proxy); the client half contributes a "图片皮肤" settings page
+# and a floating pet overlay.
+
+- insert:
+    - id: dsh-image-skin
+      name: dsh-image-skin

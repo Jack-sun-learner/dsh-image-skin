@@ -1,0 +1,30 @@
+{
+  "name": "dsh-image-skin",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "图片皮肤插件：导入 PNG/JPG/WebP 自动生成主题配色（背景/强调色/高亮跟随图片主色调），并可选生成 Q 版宠物（程序化或 AI 生图）",
+  "main": "lib/host.js",
+  "exports": {
+    ".": "./lib/host.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "author": "Huabiao Sun (Jack-sun-learner)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jack-sun-learner/dsh-image-skin.git"
+  },
+  "homepage": "https://github.com/jack-sun-learner/dsh-image-skin#readme",
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "license": "MIT"
+}
