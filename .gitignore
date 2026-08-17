@@ -2,3 +2,8 @@ node_modules/
 *.tgz
 .DS_Store
 Thumbs.db
+
+# desktop pet runtime artifacts
+pet/pet-pos.json
+pet/pet.pid
+pet/pet-boot.log
